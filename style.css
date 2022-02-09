@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+  background-color: gray;
+  width: 434px;
+}
+.sidebar nav {
+  padding: 32px;
+}
+
+.sidebar nav li {
+ 
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+  cursor: pointer;
+  
+}
+.sidebar nav li a{
+ 
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: yellow; */
+  background-color: rgb(201 201 201);
+  width: 90vw;
+}
+
+.infocontainer{
+    /* background-color:turquoise; */
+    height: 58vh;
+    width: 70vw;
+    display: flex;
+    margin: 150px auto;
+    justify-content: space-around;
+}
+
+.devpic{
+    height: 58vh;
+   
+}
+.hello{
+    font-size: 55px;
+}
+.name{
+    font-size: 50px;
+font-weight: bold;
+}
+.about{
+    font-size: 40px;
+
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+
+}
+.button{
+    margin-top: 34px;
+}
+.button button{
+    padding: 9px 14px;
+    border-radius: 50px;
+    color: white;
+    background-color: gray;
+    font-size: 22px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.button button:Hover{
+   
+    color: gray;
+    background-color: white;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contactform{
+  padding: 0 144px;
+  padding-top: 344px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.contactform h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ align-items: center;
+}
+
+.contactform form div{
+  padding: 10px 0;
+}
+
+#emailHelp{
+  font-size: 10px;
+  color: green;
+  margin: 0 10px;
+
+}
